@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Text to Speech</h2><br>
+        <textarea id="text" placeholder="Type something..."></textarea>
+        <select id="language">
+            <option value="en-US">English (US)</option>
+            <option value="en-GB">English (UK)</option>
+            <option value="hi-IN">Hindi (India)</option>
+            <option value="ta-IN">Tamil (India)</option>
+            <option value="ja-JP">Japanese</option>
+        </select>
+        <button onclick="speakText()">Speak</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
