@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Green-nature-hd-wallpaper-1080p.jpg');
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    justify-content: center;
+}
+
+h2 {
+    color: red;
+    
+}
+
+textarea {
+    width: 95%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #38df3e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+button:hover {
+    background: #218426;
+}
